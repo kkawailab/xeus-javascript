@@ -67,7 +67,8 @@ jobs:
           # build jupyterlite
           jupyter lite build  \
             --contents=notebooks \
-            --XeusAddon.prefix=$PREFIX
+            --XeusAddon.prefix=$PREFIX \
+            --XeusAddon.mount_packages=False
 
 
 
