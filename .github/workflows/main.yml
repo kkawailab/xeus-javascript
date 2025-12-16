@@ -92,7 +92,7 @@ jobs:
 
   deploy:
     # only run on main branch
-    if: github.ref == 'refs/heads/main' && github.repository == 'jupyter-xeus/xeus-javascript'
+    if: github.ref == 'refs/heads/main' && github.repository == 'kkawailab/xeus-javascript'
 
     # Add a dependency to the build job
     needs: emscripten_wasm_build
