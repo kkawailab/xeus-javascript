@@ -68,7 +68,7 @@ jobs:
           jupyter lite build  \
             --contents=notebooks \
             --XeusAddon.prefix=$PREFIX \
-            --XeusAddon.mount_packages=False
+            --XeusAddon.default_channels=https://repo.prefix.dev/emscripten-forge-dev,https://repo.mamba.pm/conda-forge
 
 
 
